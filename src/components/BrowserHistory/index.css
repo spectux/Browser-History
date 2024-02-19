@@ -1,0 +1,69 @@
+.browser-history-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.history-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.history-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  border: 1px solid #ececec;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.domain-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+}
+
+.time-accessed {
+  font-weight: bold;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.empty-history {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ececec;
+  border-radius: 5px;
+  background-color: #f8fafc;
+}
